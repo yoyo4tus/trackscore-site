@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — TrackScore</title>
+<style>
+  :root { --orange:#F97316; --ink:#111; --muted:#666; }
+  * { box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; color:var(--ink); line-height:1.6; margin:0; background:#fff; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 22px 80px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  h2 { font-size:19px; margin:34px 0 8px; }
+  .updated { color:var(--muted); font-size:14px; margin-bottom:8px; }
+  .brand { font-weight:800; letter-spacing:-1px; }
+  .brand .o { color:var(--orange); }
+  a { color:var(--orange); }
+  table { border-collapse:collapse; width:100%; margin:10px 0; font-size:14.5px; }
+  th,td { border:1px solid #eee; padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#fafafa; }
+  .box { background:#FFF7ED; border:1px solid #FED7AA; border-radius:12px; padding:14px 16px; margin:18px 0; }
+  footer { color:var(--muted); font-size:13px; margin-top:40px; border-top:1px solid #eee; padding-top:16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand" style="font-size:26px;">Track<span class="o">Score</span></div>
+  <h1>Politique de confidentialité</h1>
+  <p class="updated">Dernière mise à jour : 24 juin 2026</p>
+
+  <p>La présente politique explique quelles données personnelles l'application mobile <strong>TrackScore</strong> (« l'application ») collecte, pourquoi, et comment elles sont utilisées et protégées. TrackScore est éditée par Yohann Cesson (éditeur individuel). Pour toute question : <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>.</p>
+
+  <h2>1. Responsable du traitement</h2>
+  <p>Le responsable du traitement est l'éditeur de TrackScore, joignable à l'adresse <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>.</p>
+
+  <h2>2. Données que nous collectons</h2>
+  <table>
+    <tr><th>Catégorie</th><th>Exemples</th><th>Finalité</th></tr>
+    <tr><td>Compte</td><td>Email, prénom, nom, pseudo, photo de profil</td><td>Créer et gérer ton compte, t'identifier dans la communauté</td></tr>
+    <tr><td>Données physiques</td><td>Date de naissance, taille, poids, sexe</td><td>Calcul de l'IMC, estimation des calories, personnalisation</td></tr>
+    <tr><td>Objectifs sportifs</td><td>Objectif, niveau, discipline, fréquence</td><td>Adapter le suivi à ta pratique</td></tr>
+    <tr><td>Activité d'entraînement</td><td>Programmes, séances, séries, charges, records (PR)</td><td>Suivi de progression et historique</td></tr>
+    <tr><td>Nutrition</td><td>Journal alimentaire, recettes, liste de courses, planning repas</td><td>Suivi des calories et des repas</td></tr>
+    <tr><td>Contenu communautaire</td><td>Posts, photos, mentions « j'aime », abonnements</td><td>Fonctionnalités sociales (feed, partage)</td></tr>
+    <tr><td>Données de santé (lecture seule)</td><td>Pas, distance, calories dépensées</td><td>Affichage sur le tableau de bord — voir section 4</td></tr>
+    <tr><td>Données techniques</td><td>Identifiant de session, journaux d'erreurs</td><td>Sécurité et bon fonctionnement</td></tr>
+  </table>
+
+  <h2>3. Permissions de l'appareil</h2>
+  <p>L'application demande certaines autorisations, uniquement au moment où elles sont nécessaires :</p>
+  <ul>
+    <li><strong>Caméra</strong> : scanner les codes-barres et photographier tes plats.</li>
+    <li><strong>Photothèque</strong> : choisir une photo de profil, de post ou de recette.</li>
+    <li><strong>Mouvement / podomètre</strong> : estimer tes pas, ta distance et tes calories.</li>
+    <li><strong>Calendrier</strong> : exporter, si tu le demandes, tes repas et séances planifiés.</li>
+    <li><strong>Notifications</strong> : rappels de repas planifiés.</li>
+  </ul>
+  <p>Tu peux retirer ces autorisations à tout moment dans les réglages de ton téléphone.</p>
+
+  <h2>4. Données de santé (Apple Santé / Health Connect)</h2>
+  <p>Avec ton accord, TrackScore <strong>lit</strong> tes pas, ta distance et tes calories depuis Apple Santé (iOS) ou les capteurs de ton appareil. Ces données servent uniquement à l'affichage de ton tableau de bord et à l'estimation de tes calories. L'application <strong>n'écrit pas</strong> de données dans Apple Santé. Tes données de santé ne sont <strong>jamais</strong> utilisées à des fins publicitaires, ni vendues, ni partagées avec des tiers à des fins marketing.</p>
+
+  <h2>5. Sous-traitants et services tiers</h2>
+  <table>
+    <tr><th>Service</th><th>Rôle</th><th>Données concernées</th></tr>
+    <tr><td>Supabase</td><td>Hébergement, base de données, authentification, stockage des photos</td><td>L'ensemble des données de compte et de contenu</td></tr>
+    <tr><td>Google Sign-In</td><td>Connexion (optionnelle)</td><td>Nom, adresse email</td></tr>
+    <tr><td>Sign in with Apple</td><td>Connexion (optionnelle)</td><td>Nom, email (ou email masqué relayé par Apple)</td></tr>
+    <tr><td>OpenFoodFacts</td><td>Reconnaissance de produits par code-barres</td><td>Le code-barres scanné (aucune donnée personnelle)</td></tr>
+    <tr><td>Anthropic (Claude), si activé</td><td>Analyse de la photo d'un plat pour estimer les calories</td><td>La photo du plat, au moment de l'analyse</td></tr>
+  </table>
+  <p>Nous ne vendons pas tes données personnelles et n'en faisons pas de publicité ciblée.</p>
+
+  <h2>6. Transferts internationaux</h2>
+  <p>Certains prestataires peuvent traiter des données en dehors de l'Union européenne (notamment Anthropic, société établie aux États-Unis, lorsque l'analyse de photo par IA est activée). Ces transferts sont encadrés par des garanties appropriées (clauses contractuelles types). L'hébergement de la base de données est assuré par Supabase ; la région d'hébergement est précisée sur demande.</p>
+
+  <h2>7. Base légale et durée de conservation</h2>
+  <p>Le traitement de tes données de compte et d'activité repose sur l'exécution du service que tu demandes. Le traitement des <strong>données de santé</strong> (poids, taille, IMC, pas, calories, activité), qui relèvent d'une catégorie particulière au sens de l'article 9 du RGPD, repose sur ton <strong>consentement explicite</strong>, recueilli à l'inscription et, sur iOS, via l'autorisation Apple Santé. Tes données sont conservées tant que ton compte est actif ; à la suppression du compte, elles sont effacées (voir section ci-dessous).</p>
+
+  <h2>8. Tes droits</h2>
+  <p>Conformément au RGPD, tu disposes d'un droit d'accès, de rectification, d'effacement, de limitation, d'opposition, de portabilité et du droit de retirer ton consentement à tout moment. Pour les exercer, écris à <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>. Tu peux aussi introduire une réclamation auprès de la CNIL (www.cnil.fr).</p>
+
+  <div class="box">
+    <h2 style="margin-top:0;">9. Suppression de tes données</h2>
+    <p>Tu peux supprimer ton compte directement dans l'application : <strong>Profil → Réglages → Supprimer mon compte</strong>. Toutes tes données (profil, journal, séances, records, posts, recettes, photos) sont alors définitivement effacées. Tu peux aussi nous écrire pour demander la suppression.</p>
+  </div>
+
+  <h2>10. Sécurité</h2>
+  <p>Les accès aux données sont protégés par authentification et par des règles de sécurité au niveau de la base (Row Level Security) : chaque utilisateur n'accède qu'à ses propres données privées.</p>
+
+  <h2>11. Âge minimum</h2>
+  <p>En France, l'âge du consentement numérique est de 15 ans. Tu dois donc avoir au moins 15 ans pour utiliser TrackScore ; en-dessous, l'accord d'un titulaire de l'autorité parentale est nécessaire.</p>
+
+  <h2>12. Modifications</h2>
+  <p>Cette politique peut être mise à jour. La date en haut de page indique la dernière révision.</p>
+
+  <footer>
+    TrackScore · Contact : <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a><br>
+    <a href="conditions.html">Conditions d'utilisation</a> · <a href="index.html">Support</a>
+  </footer>
+</div>
+</body>
+</html>
