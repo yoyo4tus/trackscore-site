@@ -25,66 +25,53 @@
 <div class="wrap">
   <div class="brand" style="font-size:26px;">Track<span class="o">Score</span></div>
   <h1>Privacy Policy</h1>
-  <p class="updated">Last updated: June 24, 2026</p>
+  <p class="updated">Last updated: July 10, 2026</p>
 
-  <p>This policy explains what personal data the <strong>TrackScore</strong> mobile app collects, why, and how it is used and protected. TrackScore is published by Yohann Cesson (individual developer). Questions: <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>.</p>
+  <p>This policy explains what personal data the <strong>TrackScore</strong> mobile app collects, why, and how it is used and protected. Questions: <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>.</p>
 
-  <h2>1. Data we collect</h2>
+  <h2>1. Data controller</h2>
+  <p>TrackScore is published by <strong>Yohann Cesson</strong>, sole proprietor registered in France — <strong>SIREN 107 445 397</strong>. The data controller can be reached at <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>.</p>
+
+  <h2>2. Data we collect</h2>
   <table>
     <tr><th>Category</th><th>Examples</th><th>Purpose</th></tr>
     <tr><td>Account</td><td>Email, first/last name, username, profile photo</td><td>Create and manage your account, identify you in the community</td></tr>
-    <tr><td>Physical data</td><td>Date of birth, height, weight, sex</td><td>BMI, calorie estimates, personalization</td></tr>
+    <tr><td>Physical data</td><td>Date of birth, height, weight, sex, weight history</td><td>BMI, calorie estimates and adjustments, personalization</td></tr>
     <tr><td>Sport goals</td><td>Goal, level, discipline, frequency</td><td>Tailor tracking to your practice</td></tr>
-    <tr><td>Training activity</td><td>Programs, sessions, sets, loads, personal records</td><td>Progress tracking and history</td></tr>
+    <tr><td>Training activity</td><td>Programs, sessions, sets, loads, personal records</td><td>Progress tracking, history, personalized insights</td></tr>
     <tr><td>Nutrition</td><td>Food journal, recipes, shopping list, meal plan</td><td>Calorie and meal tracking</td></tr>
-    <tr><td>Community content</td><td>Posts, photos, likes, follows</td><td>Social features (feed, sharing)</td></tr>
-    <tr><td>Health data (read-only)</td><td>Steps, distance, active calories</td><td>Dashboard display — see section 3</td></tr>
+    <tr><td>Community content</td><td>Posts, photos, workout recaps, likes, follows, follow requests</td><td>Social features (feed, sharing)</td></tr>
+    <tr><td>Coach space</td><td>Coach–client link, chat messages (text and photos), advice, assigned programs</td><td>Coaching by a coach you chose — see section 6</td></tr>
+    <tr><td>Moderation</td><td>Content or message reports, blocked users</td><td>Community safety, abuse handling</td></tr>
+    <tr><td>Health data (read-only)</td><td>Steps, distance, calories burned</td><td>Dashboard display — see section 4</td></tr>
+    <tr><td>Technical data</td><td>Session identifier, error logs</td><td>Security and proper operation</td></tr>
   </table>
 
-  <h2>2. Device permissions</h2>
-  <p>We request permissions only when needed: <strong>Camera</strong> (barcode and meal photos), <strong>Photo library</strong> (profile/post/recipe photos), <strong>Motion/pedometer</strong> (steps, distance, calories), <strong>Calendar</strong> (optional export of planned meals/sessions), <strong>Notifications</strong> (meal reminders). You can revoke them anytime in your phone settings.</p>
+  <h2>3. Device permissions</h2>
+  <p>The app requests certain permissions, only when they are needed:</p>
+  <ul>
+    <li><strong>Camera</strong>: scan barcodes and photograph your meals.</li>
+    <li><strong>Photo library</strong>: choose a profile, post, recipe or coach-chat photo.</li>
+    <li><strong>Motion / pedometer</strong>: estimate your steps, distance and calories.</li>
+    <li><strong>Calendar</strong>: add your planned meals and workouts to your calendar, if you ask for it.</li>
+    <li><strong>Notifications</strong>: reminders for planned meals.</li>
+  </ul>
+  <p>You can revoke these permissions at any time in your phone settings.</p>
 
-  <h2>3. Health data (Apple Health / Health Connect)</h2>
-  <p>With your consent, TrackScore <strong>reads</strong> steps, distance and calories to display your dashboard. The app does <strong>not write</strong> data to Apple Health. Health data is <strong>never</strong> used for advertising, sold, or shared with third parties for marketing.</p>
+  <h2>4. Health data (Apple Health / HealthKit)</h2>
+  <p>With your consent, TrackScore <strong>reads</strong> your steps, distance and active calories from Apple Health (HealthKit) on iOS, or from your device's sensors. This data is used only to display your dashboard and estimate your calorie expenditure; the source (Apple Health) is identified in the interface. The app does <strong>not write</strong> data to Apple Health. Your health data is <strong>never</strong> used for advertising or marketing, never sold, never shared with third parties, and never used for research without separate consent, in accordance with Apple's HealthKit rules.</p>
 
-  <h2>4. Third-party processors</h2>
-  <table>
-    <tr><th>Service</th><th>Role</th><th>Data</th></tr>
-    <tr><td>Supabase</td><td>Hosting, database, authentication, photo storage</td><td>All account and content data</td></tr>
-    <tr><td>Google Sign-In</td><td>Optional login</td><td>Name, email</td></tr>
-    <tr><td>Sign in with Apple</td><td>Optional login</td><td>Name, email (or Apple's relayed private email)</td></tr>
-    <tr><td>OpenFoodFacts</td><td>Barcode product lookup</td><td>The scanned barcode (no personal data)</td></tr>
-    <tr><td>Anthropic (Claude), if enabled</td><td>Meal photo calorie estimation</td><td>The meal photo, at analysis time</td></tr>
-  </table>
-  <p>We do not sell your personal data and do not run targeted advertising.</p>
+  <h2>5. AI photo analysis (meal scan)</h2>
+  <p>The "AI Scan" feature lets you photograph a meal to estimate its calories and macronutrients. The photo is sent, only at analysis time, to our AI provider (Anthropic) through a secure server. It is used to produce the estimate and is not otherwise exploited by TrackScore. This feature is optional: nothing is analyzed unless you take or choose a photo yourself.</p>
 
-  <h2>5. International transfers</h2>
-  <p>Some processors may handle data outside the EU (notably Anthropic, a US company, when AI photo analysis is enabled). Such transfers are covered by appropriate safeguards (standard contractual clauses). Database hosting is provided by Supabase; the hosting region is available on request.</p>
+  <h2>6. Coach space and messaging</h2>
+  <p>Linking with a coach is <strong>voluntary</strong>: the link only exists if you enter the code your coach gave you. Once linked:</p>
+  <ul>
+    <li>your coach can view your <strong>workout sessions</strong> (programs, exercises, loads) and an <strong>aggregated daily summary</strong> of your calories in and out — never the details of your food journal;</li>
+    <li>they can send you advice and assign programs;</li>
+    <li>you share a <strong>private chat</strong> (text and photos). Chat photos are stored in a private space, accessible only to the two participants through time-limited secure links;</li>
+    <li>you can <strong>end the link at any time</strong> (from settings or the conversation menu): the coach immediately loses access to your data.</li>
+  </ul>
 
-  <h2>6. Legal basis</h2>
-  <p>Account and activity data are processed to perform the service you request. <strong>Health data</strong> (weight, height, BMI, steps, calories, activity), a special category under GDPR Article 9, is processed on the basis of your <strong>explicit consent</strong>, collected at sign-up and, on iOS, via the Apple Health authorization.</p>
-
-  <h2>7. Your rights</h2>
-  <p>Under the GDPR you have rights of access, rectification, erasure, restriction, objection, portability and to withdraw consent at any time. Contact <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>. You may also lodge a complaint with the French CNIL.</p>
-
-  <div class="box">
-    <h2 style="margin-top:0;">8. Deleting your data</h2>
-    <p>You can delete your account directly in the app: <strong>Profile → Settings → Delete my account</strong>. All your data is then permanently erased. You may also email us to request deletion.</p>
-  </div>
-
-  <h2>9. Security</h2>
-  <p>Data access is protected by authentication and database-level Row Level Security: each user can only access their own private data.</p>
-
-  <h2>10. Minimum age</h2>
-  <p>In France the age of digital consent is 15. You must be at least 15 to use TrackScore; below that age, consent from a holder of parental authority is required.</p>
-
-  <h2>11. Changes</h2>
-  <p>This policy may be updated; the date above shows the latest revision.</p>
-
-  <footer>
-    TrackScore · Contact: <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a><br>
-    <a href="terms.html">Terms of Use</a> · <a href="index.html">Support</a>
-  </footer>
-</div>
-</body>
-</html>
+  <h2>7. Private profiles and content visibility</h2>
+  <p>You control the visibility of your profile and posts: you can make your profile <strong>private</strong> (your posts are then visible only to followers you approved) and choose a <strong>"Public"</strong> or <strong>
