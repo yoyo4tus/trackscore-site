@@ -74,4 +74,50 @@
   </ul>
 
   <h2>7. Private profiles and content visibility</h2>
-  <p>You control the visibility of your profile and posts: you can make your profile <strong>private</strong> (your posts are then visible only to followers you approved) and choose a <strong>"Public"</strong> or <strong>
+  <p>You control the visibility of your profile and posts: you can make your profile <strong>private</strong> (your posts are then visible only to followers you approved) and choose a <strong>"Public"</strong> or <strong>"Friends"</strong> audience for each post. These rules are enforced server-side.</p>
+
+  <h2>8. Processors and third-party services</h2>
+  <table>
+    <tr><th>Service</th><th>Role</th><th>Data involved</th></tr>
+    <tr><td>Supabase</td><td>Hosting, database, authentication, photo storage</td><td>All account and content data</td></tr>
+    <tr><td>Google Sign-In</td><td>Sign-in (optional)</td><td>Name, email address</td></tr>
+    <tr><td>Sign in with Apple</td><td>Sign-in (optional)</td><td>Name, email (or Apple's relayed private email)</td></tr>
+    <tr><td>OpenFoodFacts</td><td>Barcode product lookup</td><td>The scanned barcode (no personal data)</td></tr>
+    <tr><td>Anthropic (Claude)</td><td>Meal photo analysis for calorie estimates</td><td>The meal photo, at analysis time</td></tr>
+    <tr><td>Apple (App Store)</td><td>Payment processing if you subscribe</td><td>Handled by Apple; we never receive your payment details</td></tr>
+  </table>
+  <p>We do not sell your personal data and do not run targeted advertising.</p>
+
+  <h2>9. Shop and partner links</h2>
+  <p>The "Shop" section may feature products (food supplements) sold by partners. Tapping a product redirects you to the partner's website in your browser: any purchase happens there and is governed by their own privacy policy. TrackScore transmits no personal data to the partner during the redirection.</p>
+
+  <h2>10. International transfers</h2>
+  <p>Some providers may process data outside the European Union (notably Anthropic, a US company, for AI photo analysis). These transfers are covered by appropriate safeguards (standard contractual clauses). Database hosting is provided by Supabase under a data processing agreement (DPA); the hosting region is available on request.</p>
+
+  <h2>11. Legal basis and retention</h2>
+  <p>Processing of your account and activity data is based on the performance of the service you request. Processing of <strong>health data</strong> (weight, height, BMI, steps, calories, activity), a special category under Article 9 GDPR, is based on your <strong>explicit consent</strong>, collected at sign-up and, on iOS, through the Apple Health permission. Sharing data with a coach is based on your consent (entering the code yourself), revocable at any time. Your data is kept as long as your account is active; when the account is deleted, it is erased (see section 13).</p>
+
+  <h2>12. Your rights</h2>
+  <p>Under the GDPR, you have the right of access, rectification, erasure, restriction, objection, portability, and the right to withdraw consent at any time. The app includes built-in <strong>data export</strong> (Profile → Settings → Export my data) in a machine-readable format, as well as account deletion. For any other request, write to <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a>. You may also lodge a complaint with the CNIL (www.cnil.fr).</p>
+
+  <div class="box">
+    <h2 style="margin-top:0;">13. Deleting your data</h2>
+    <p>You can delete your account directly in the app: <strong>Profile → Settings → Delete my account</strong>. All your data (profile, journal, sessions, records, posts, recipes, photos, coach-chat messages) is then permanently erased. You can also write to us to request deletion.</p>
+  </div>
+
+  <h2>14. Security</h2>
+  <p>Data access is protected by authentication and by database-level security rules (Row Level Security): each user can only access their own private data, and visibility rules (private profile, post audience, coach link) are enforced server-side. Photos exchanged in the coach chat are stored in a private space, accessible only through time-limited signed links.</p>
+
+  <h2>15. Minimum age</h2>
+  <p>In France, the age of digital consent is 15. You must therefore be at least 15 to use TrackScore; below that age, consent from a holder of parental authority is required.</p>
+
+  <h2>16. Changes</h2>
+  <p>This policy may be updated. The date at the top indicates the latest revision.</p>
+
+  <footer>
+    TrackScore · Yohann Cesson (sole proprietor) — SIREN 107 445 397 · Contact: <a href="mailto:trackscore.admin@gmail.com">trackscore.admin@gmail.com</a><br>
+    <a href="terms.html">Terms of Use</a> · <a href="index.html">Support</a> · <a href="confidentialite.html">Version française</a>
+  </footer>
+</div>
+</body>
+</html>
